@@ -2107,7 +2107,8 @@ design for 320px
 /*Add style to img logo */
 
 .slides li{
-	margin-left: 50px !important;
+	
+	/*margin-left: 0.3% !important;*/
 }
 
  a.logo-link img{
@@ -2120,7 +2121,10 @@ a.logo-link img:hover{
 
 
 
-/*Add style to img logo */
+
+	
+
+/*End Add style to img logo */
 
 
 /*Add style to services background  */
@@ -2137,6 +2141,17 @@ a.logo-link img:hover{
 
 /* Begin style home img opacity*/
 
-div.tp-bgimg.defaultimg{
-	opacity: 0.3 !important;
+.fullwidthbanner-container{
+/*opacity:0.3 !important;*/ 
+}
+
+.tp-bgimg.defaultimg {
+ /*   opacity: 0.5 !important;*/
+ box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.2);
+}
+}
+
+#wrap-slider{
+	/*background-color: #fff;*/
+	
 }

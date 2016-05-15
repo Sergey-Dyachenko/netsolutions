@@ -205,7 +205,7 @@ jQuery(document).ready(function() {
 		itemWidth: 120,
 		itemMargin: 0,
 		minItems: 1,
-		maxItems: 6,
+		maxItems: 5,
 		controlNav: false
 	  });
 	  

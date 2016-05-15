@@ -39,7 +39,7 @@
 
 
 
-    <script type="text/javascript">
+   <script type="text/javascript">
 
         jQuery(function ($) {
 
@@ -52,8 +52,8 @@
 
                 // Components							
                 slide_links: 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
-                slides: [			// Slideshow Images
-                                                    { image: 'images-slider/wide1.jpg', url: '' },
+       slides: [			// Slideshow Images
+                                                    { image: 'images-slider/wide1.jpg', url: '' }, 
                                                     { image: 'images-slider/wide2.jpg', url: '' },
 													{ image: 'images-slider/wide3.jpg', url: '' },
                 ]
@@ -134,12 +134,13 @@
 
 
         <!-- revolution slider begin -->
+    <div id="wrap-slider">
         <div class="fullwidthbanner-container">
             <div id="revolution-slider">
                 <ul>
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="200" data-thumb="images-slider/thumbs/thumb1.jpg">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="images/blank.png">
+                        <img src="images-slider/wide1.jpg">
                         <div class="tp-caption ultra-big-white customin customout start"
                             data-x="center"
                             data-y="center"
@@ -246,7 +247,8 @@
                 </ul>
             </div>
         </div>
-        <!-- revolution slider close -->
+      
+      </div>  <!-- revolution slider close -->
 
 
         <!-- content begin -->
@@ -673,43 +675,49 @@
                      <!--     <div class="col-md-offset-2 col-sm-offset-1 col-xs-offset=0">-->
                             <ul class="slides">
 
-                                    <li>
-                                        <div class="col-sm-2 col-lg-2">
-                                            <a href="#" class="logo-link">
-                                                <img src="images/logo/1.png" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="col-sm-2 col-lg-2">
+                                   
+                                        <li>
+                                            <div class="col-md-2">
+                                                <a href="#" class="logo-link">
+                                                    <img src="images/logo/1.png" alt="">
+                                                </a>
+                                             </div>
+                                        </li>
+                                   
+                                     
+                                    <li >
+                                        <div class="col-md-2">
                                             <a href="#" class="logo-link">
                                                 <img src="images/logo/2.png" alt="">
                                             </a>
                                         </div>
                                     </li>
+                                    
 
                                     <li>
-                                        <div class="col-sm-2 col-lg-2" >
+                                        <div class="col-md-2">
                                             <a href="#" class="logo-link">
                                                 <img src="images/logo/3.png" alt="">
                                             </a>
                                         </div>
                                     </li>
+                                    
                                     <li>
-                                        <div class="col-sm-2 col-lg-2">
-                                            <a href="#" class="logo-link">
-                                                <img src="images/logo/4.png" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="col-sm-2 col-lg-2">
+                                        <div class="col-md-2">
                                             <a href="#" class="logo-link">
                                                 <img src="images/logo/5.png" alt="">
                                             </a>
                                         </div>
                                     </li>
+                                     
+                                    <li>
+                                        <div class="col-md-2">
+                                            <a href="#" class="logo-link">
+                                                <img src="images/logo/4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </li>    
+
 
 
 
